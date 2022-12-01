@@ -1,38 +1,55 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  align-items: center;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .App-header {
   /* background-color: #282c34; */
-  min-height: 100vh;
+  /* padding-top: 10%; */
+  /* height: 10%; */
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  position: fixed;
+  top: 0px;
   font-size: calc(10px + 2vmin);
-  font-family: 'Source Sans Pro', sans-serif;
   /* color: white; */
 }
 
-.search {
+.logo-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  width: 175px;
+  height: 103px;
+}
+
+.title {
+  width: 165px;
+  height: 41px;
+  /* 
+  position: absolute;
+  left: 388px; 
+  top: 88px;
+  */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  /* line-height: 582%; */
+  letter-spacing: -0.2px;
+}
+
+.search-bar {
   border: none;
+  outline: none;
   border-bottom: 2px solid black;
 
 }
 
-.material-symbols-outlined {
+.search-icon {
   border: none;
   background-color: rgba(255, 255, 255, 0);
   font-variation-settings:
@@ -42,7 +59,7 @@
   'opsz' 48
 }
 
-.donate {
+.donate-button {
   border: none;
   background-color: #FFA629;
   border-radius: 6px;
@@ -53,17 +70,4 @@
   size: 24px;
   line-height: 30.17px;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
