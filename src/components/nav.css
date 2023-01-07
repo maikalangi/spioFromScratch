@@ -1,0 +1,17 @@
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background: #5A93A4;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}

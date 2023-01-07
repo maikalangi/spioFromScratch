@@ -1,6 +1,7 @@
 import spio from '../spio.png';
 import search from '../search.png';
 import './header.css';
+import Nav from './nav';
 
 function Header() {
     return (
@@ -12,6 +13,9 @@ function Header() {
         <input type="search" className='search-bar'/>
         <button className='search-icon'><img src={search} alt="search" /></button>
         <button className='donate-button'>DONATE</button>
+        <div className='nav-bar'>
+          <Nav/>
+        </div>
       </header>
     );
 }
