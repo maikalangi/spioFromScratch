@@ -1,5 +1,9 @@
-.nav-bar {
+.header {
     display: flex;
-    justify-content: flex-start;
     flex-direction: column;
+}
+
+.page-top {
+    display: flex;
+    flex-direction: row;
 }
