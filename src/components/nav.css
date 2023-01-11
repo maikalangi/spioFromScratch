@@ -6,6 +6,7 @@ nav {
 ul {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     list-style: none;
     background: #5A93A4;
     font-family: 'Source Sans Pro';
@@ -14,4 +15,8 @@ ul {
     font-size: 20px;
     line-height: 25px;
     color: #FFFFFF;
+}
+
+li {
+    padding: 0 10% 0 10%;
 }
