@@ -7,18 +7,21 @@
 .page-top {
     display: flex;
     flex-direction: row;
-    align-items: stretch;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    height: 10%;
 }
 
 .donate-button {
     border: none;
     background-color: #FFA629;
     border-radius: 6px;
-    width: 142px;
-    height: 42.22px;
+    width: 19.88795518207283vh;
+    height: 5.913165266106443vh;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
-    size: 24px;
+    size: 3.361344537815126vh;
     line-height: 30.17px;
     color: white;
 }
@@ -33,8 +36,9 @@
 }
 
 .logo-header {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
 
 }
 
