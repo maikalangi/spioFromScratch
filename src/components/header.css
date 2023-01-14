@@ -1,11 +1,13 @@
 .header {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .page-top {
     display: flex;
     flex-direction: row;
+    align-items: stretch;
 }
 
 .donate-button {
@@ -22,17 +24,12 @@
 }
 
 .App-header {
-    /* background-color: #282c34; */
-    /* padding-top: 10%; */
-    /* height: 10%; */
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: space-evenly;
     position: fixed;
     top: 0px;
     font-size: calc(10px + 2vmin);
-    /* color: white; */
 }
 
 .logo-header {
@@ -49,15 +46,9 @@ height: 103px;
 .title {
 width: 165px;
 height: 41px;
-/* 
-position: absolute;
-left: 388px; 
-top: 88px;
-*/
 font-style: normal;
 font-weight: 600;
 font-size: 11px;
-/* line-height: 582%; */
 letter-spacing: -0.2px;
 }
 
