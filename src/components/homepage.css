@@ -50,6 +50,7 @@
     width: 122.8125px;
 }
 
+
 #center-div {
     display: flex;
     flex-direction: column;
@@ -80,4 +81,12 @@
 #rightVector{
     height: 115px;
     width: 115px;
+}
+
+#impact {
+    background: #EEE0C8;
+}
+
+#events {
+    background: #5A93A4;
 }
