@@ -1,4 +1,6 @@
 import Carousel from './carousel.js';
+import Events from './events.js';
+import News from './news.js';
 import leftVector from '../leftVector.png';
 import centerVector from '../centerVector.png';
 import rightVector from '../rightVector.png';
@@ -85,10 +87,10 @@ function Homepage() {
                 <button id='partner'>PARTNER WITH SPIO</button>
             </div>
             <div className='home-div' id='events'>
-                <h3>EVENTS</h3>
+                <Events />
             </div>
             <div className='home-div' id='news'>
-                <h3>NEWS</h3>
+                <News />
             </div>
         </div>
     )
