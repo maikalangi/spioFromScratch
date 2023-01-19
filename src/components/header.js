@@ -1,7 +1,7 @@
-import spio from '../spio.png';
-import search from '../search.png';
-import './header.css';
-import Nav from './nav';
+import spio from '../utils/spio.png';
+import search from '../utils/search.png';
+import '../styles/header.css';
+import Nav from './Nav';
 
 function Header() {
     return (
