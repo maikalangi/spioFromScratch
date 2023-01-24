@@ -1,0 +1,18 @@
+#impact {
+    background: #EEE0C8;
+}
+
+table {
+    margin: 0;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+#impact-div {
+    text-align: center;
+    /* justify-content: center; */
+}
+
+#impact-div p {
+    color:#A49380;
+}
