@@ -1,5 +1,8 @@
+.newsDiv {
+    display: flex;
+}
 
-
-div {
+div
+ {
     text-align: center;
 }
