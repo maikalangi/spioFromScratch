@@ -1,5 +1,13 @@
-eventsDiv {
+.eventsDiv {
+    width: 100%;
+    background: #5A93A4;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+#calendar {
+    display: flex;
+    justify-content: space-around;
 }

@@ -5,3 +5,19 @@
     justify-content: center;
     text-align: center;
 }
+
+#slide-1 {
+    background: linear-gradient(89.73deg, #7B872D 40.45%, rgba(123, 135, 45, 0) 75.15%);
+}
+
+#slide-2 {
+    background: linear-gradient(270.01deg, #7B872D 67.7%, rgba(123, 135, 45, 0) 115.45%);
+}
+
+#slide-3 {
+    background: linear-gradient(89.78deg, #7B872D 55%, rgba(123, 135, 45, 0) 107.46%);
+}
+
+#slide-4 {
+    background: linear-gradient(270.01deg, #7B872D 67.7%, rgba(123, 135, 45, 0) 115.45%);
+}

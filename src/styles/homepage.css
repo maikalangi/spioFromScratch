@@ -10,24 +10,8 @@
     justify-content: center;
 }
 
-#impact {
-    background: #EEE0C8;
-}
-
-#impact-div {
-    text-align: center;
-}
-
-#impact-div p {
-    color:#A49380;
-}
-
 #involved {
     display: flex;
     flex-direction: column;
     text-align: center;
-}
-
-#events {
-    background: #5A93A4;
 }
