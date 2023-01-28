@@ -4,6 +4,25 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.slides {
+    display: flex;
+    flex-direction: row;
+    object-fit: contain;
+    width: 230.4878048780488vh;
+    height: 64.78658536585365vh;
+}
+
+.slides div {
+    object-fit: contain;
+}
+
+img {
+    object-fit: contain;
 }
 
 #slide-1 {
