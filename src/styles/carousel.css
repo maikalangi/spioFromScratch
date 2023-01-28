@@ -21,6 +21,24 @@
     object-fit: contain;
 }
 
+h5 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5.487804878048781vh;
+    line-height: 6.859756097560975vh;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4390243902439024vh;
+    line-height: 3.048780487804878vh;
+    color: #000000;
+}
+
 img {
     object-fit: contain;
 }
