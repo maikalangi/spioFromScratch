@@ -63,6 +63,25 @@ img {
     background: linear-gradient(89.73deg, #7B872D 40.45%, rgba(123, 135, 45, 0) 75.15%);
 }
 
+#slide-2 h5 {
+    text-align: right;
+    width: 466px;
+    height: 186.95px;
+}
+
+#slide-2 p {
+    display: flex;
+    justify-self: end;
+    text-align: right;
+    width: 395px;
+    height: 100px;
+}
+
+#slide-2 img {
+    width: 899px;
+    height: 511px;
+}
+
 #slide-2 {
     background: linear-gradient(270.01deg, #7B872D 67.7%, rgba(123, 135, 45, 0) 115.45%);
 }
