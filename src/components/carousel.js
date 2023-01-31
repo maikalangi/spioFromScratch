@@ -22,9 +22,13 @@ function Carousel() {
                 </div>
             </li>
             <li className='slides' id='slide-3'>
-                <h5>We are democratizing Pacific Islander access to educational and career resources.</h5>
+                <div>
+                    <h5>We are democratizing Pacific Islander access to educational and career resources.</h5>
+                </div>
                 <img src={slide3} alt="" />
-                <p>Congratulate one of SPIO’s 2021 Honorary Scholarship receipients, Vinessa Dueñas. Click the link to learn more about Vinessa’s efforts in serving her community.</p>
+                <div>
+                    <p>Congratulate one of SPIO’s 2021 Honorary Scholarship receipients, Vinessa Dueñas. Click the link to learn more about Vinessa’s efforts in serving her community.</p>
+                </div>
             </li>
             <li className='slides' id='slide-4'>
                 <img src={slide4} alt="" />
