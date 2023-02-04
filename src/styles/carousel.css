@@ -11,7 +11,8 @@
 .slides {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 1517px;
+    height: 422px;
     flex-shrink: 0;
     flex-grow: 1;
 }
@@ -56,13 +57,13 @@ img {
     height: 63px;
 }
 
-#slide-1 img {
+/* #slide-1 img {
     width: 913px;
     height: 425px;
-}
+} */
 
 #slide-1 {
-    height: 425px;
+    /* height: 425px; */
     background: linear-gradient(89.73deg, #7B872D 40.45%, rgba(123, 135, 45, 0) 75.15%);
 }
 
