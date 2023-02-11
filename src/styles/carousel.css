@@ -1,23 +1,33 @@
+.carousel-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
 .carousel {
     list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 100%;
     margin: 0;
     padding: 0;
+    left: 0;
+    transition: left 0.5s;
 }
 
 .slides {
     display: flex;
     flex-direction: row;
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 1517px;
     height: 422px;
-    flex-shrink: 0;
-    flex-grow: 1;
+    /* flex-shrink: 0;
+    flex-grow: 1; */
+    float: left;
+    position: relative;
+    z-index: 1;
 }
 
 .slides div {
